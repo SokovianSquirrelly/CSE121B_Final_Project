@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Useless Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>The Useless Calculator</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Distance</h2>
+                <div>
+                    <label for="distanceNumber">Measurement:</label>
+                    <input type="text" id="dNumber" name="dNumber">
+                </div>
+                <p>
+                    Distance Unit: 
+                    <select id="distance">
+                        <option value="inches">Inches</option>
+                        <option value="feet">Feet</option>
+                        <option value="miles">Miles</option>
+                    </select>
+                </p>
+                <div>
+                    <input type="button" id="calculateDistance" value="Calculate Distance">
+                </div>
+                <div>
+                    <ul id="distanceFinal"></ul>
+                </div>
+                <h2>Weight</h2>
+                <div>
+                    <label for="weightNumber">Measurement:</label>
+                    <input type="text" id="wNumber" name="wNumber">
+                </div>
+                <p>
+                    Weight Unit: 
+                    <select id="weight">
+                        <option value="ounces">Ounces</option>
+                        <option value="pounds">Pounds</option>
+                        <option value="tons">Tons</option>
+                    </select>
+                </p>
+                <div>
+                    <input type="button" id="calculateWeight" value="Calculate Weight">
+                </div>
+                <div>
+                    <ul id="weightFinal"></ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script type="module" src="project.js"></script>
+</body>
+</html>
